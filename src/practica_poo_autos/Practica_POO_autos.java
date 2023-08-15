@@ -40,6 +40,7 @@ public class Practica_POO_autos {
                 
             if (frena.matches("s") || frena.matches("S") ) {
                 carro.frenar();
+                System.out.println("Prueba de manejo realizada exitosamente!!!");
                 break;
             }else{
                 System.out.println("sigan viendo");
